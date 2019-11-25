@@ -42,3 +42,6 @@ For emails I used the php built in email function to send all my emails.
 
 
 A great way to test emails is: https://www.mailinator.com/ 
+
+<img width="703" alt="Screen Shot 2019-11-25 at 3 49 55 PM" src="https://user-images.githubusercontent.com/22520221/69587851-b046d100-0f9b-11ea-9474-0f7e5c6d863a.png">
+
