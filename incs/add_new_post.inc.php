@@ -11,7 +11,6 @@
 	
 	$image = mysqli_connect($conn,'SELECT image FROM posts');
 	
-	
 	//checks if we have the varible submit then
 	if (filter_has_var(INPUT_POST, 'submit')){
 		//Store and validate inputs
@@ -45,7 +44,7 @@
 		}
 
 		if($imgFileType != "jpg" && $imgFileType != "png" && $imgFileType != "jpeg" && $imgFileType != "gif" ) {
-			echo "<script>alert('Only JPG, JPEG, PNG & GIF files are allowed.!')</script>";
+			echo "<script>alert('Only JPG, JPEG, PNG & GIF files are allowed!')</script>";
 			$uploadable = 0;
 		}
 
@@ -127,6 +126,4 @@
 	</div>
 </div>
 
-
 <script src="../js/camera.js"></script>
-<?php //require('inc/footer.inc.php')?>

@@ -20,20 +20,19 @@
         }
     }
 
-    function password_complexity($pass) {
+    function password_complexity($passwd) {
         // 8 chars long is a min for a complex password
-        if (strlen($pass) < 8) {
+        if (strlen($passwd) < 8) {
             echo "<script>alert('Please make sure your password is 8 characters or longer.')</script>";
-            echo "<script>window.open('user_settings.inc.php','_self')</script>";
             exit();
         }
-        $containsLower = preg_match('/[a-z]/', $pass);
-        $containsUpper = preg_match('/[A-Z]/', $pass);
-        $containsDigit = preg_match('/[0-9]/', $pass);
-        $containsSpecial = preg_match('/[\W]+/', $pass);
-        if (!$containsUpper || !$containsLower || !$containsDigit || !$containsSpecial) {
-            echo "<script>alert('Please make sure your password has an array of lowercase letters, uppercase letters, at least one digit and at least one special character.')</script>";
-            echo "<script>window.open('user_settings.inc.php','_self')</script>";
+        //checks the complexity of those 8 chars
+        $hasUpper = preg_match('/[A-Z]/', $passwd);
+        $hasLower = preg_match('/[a-z]/', $passwd);
+        $hasDigit = preg_match('/[0-9]/', $passwd);
+        $hasSpecial = preg_match('/[\W]+/', $passwd);
+        if (!$hasUpper || !$hasLower || !$hasDigit || !$hasSpecial) {
+            echo "<script>alert('Please make sure your password has lowercase letters, uppercase letters, and at least one digit and one special character.')</script>";
             exit();
         }
     }
