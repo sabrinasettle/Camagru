@@ -53,6 +53,6 @@ The user is allowed to view the gallery of images along with the name of the use
 
 <img width="705" alt="Screen Shot 2019-11-25 at 3 50 38 PM" src="https://user-images.githubusercontent.com/22520221/69588155-aa052480-0f9c-11ea-80c7-089f361cda6f.png">
 
-The user is allowed acces to the photo editing and sharing. Along with the social aspects like commenting and liking others photos.
+The user is allowed acces to the photo editing and sharing. Along with the social aspects like commenting and liking others photos. An image can only be posted if there is a sticker attached to the postable image. This is true of the uploadable images as well.
 
 
