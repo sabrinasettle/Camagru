@@ -43,5 +43,16 @@ For emails I used the php built in email function to send all my emails.
 
 A great way to test emails is: https://www.mailinator.com/ 
 
+### Before Login
+
 <img width="703" alt="Screen Shot 2019-11-25 at 3 49 55 PM" src="https://user-images.githubusercontent.com/22520221/69587851-b046d100-0f9b-11ea-9474-0f7e5c6d863a.png">
+
+The user is allowed to view the gallery of images along with the name of the user you took the photo, and their caption but they have restricted access to the main parts of the app.
+
+### After Login
+
+<img width="705" alt="Screen Shot 2019-11-25 at 3 50 38 PM" src="https://user-images.githubusercontent.com/22520221/69588155-aa052480-0f9c-11ea-80c7-089f361cda6f.png">
+
+The user is allowed acces to the photo editing and sharing. Along with the social aspects like commenting and liking others photos.
+
 
